@@ -26,7 +26,7 @@ Straightforward Prompts:
 
 Tabular Format Prompting:
 
-• "Compare and contrast AC and DC current in a table."
+• "Compare and contrast AC and DC current in a table." 
 
 • "Provide a table listing five programming languages, their paradigms, and one use case each."
 
@@ -43,5 +43,54 @@ Missing Word Prompting:
 • "In photosynthesis, plants absorb sunlight to produce ____."
 
 OUTPUT:
+This exercise demonstrates how different prompt structures influence AI responses. Below are two distinct scenarios for each of the four prompt types, focusing on **Data Science** (Scenario A) and **Environment & Energy** (Scenario B).
 
-RESULT: 
+---
+
+### 1. Straightforward Prompts
+
+*These are direct, concise instructions that ask for specific information without complex formatting or context.*
+
+* **Scenario A (Data Science):** "Explain the difference between supervised and unsupervised learning in two sentences."
+* **Scenario B (Energy):** "List four renewable energy sources that do not produce carbon emissions during operation."
+
+---
+
+### 2. Tabular Format Prompting
+
+*These prompts request information organized into rows and columns to make comparisons or structured lists easier to read.*
+
+* **Scenario A (Data Science):** "Create a table comparing Mean Absolute Error (MAE) and Mean Squared Error (MSE), including their formulas and when to use each."
+* **Scenario B (Environment):** "Provide a table listing three types of water pollutants, their primary sources, and one specific environmental impact for each."
+
+---
+
+### 3. Preceding Question Prompting
+
+*This technique uses an initial question to set the context or "prime" the AI’s logic before asking for a detailed explanation.*
+
+* **Scenario A (Data Science):** "What is the purpose of a training dataset? Explain how an overfitted model performs differently on training data versus testing data."
+* **Scenario B (Environment):** "Why is biodiversity important for ecosystem stability? Describe two ways that habitat destruction leads to a decline in species population."
+
+---
+
+### 4. Missing Word Prompting
+
+*Also known as "Fill-in-the-blank" prompting, this is used to test specific knowledge retrieval or to generate concise completions.*
+
+* **Scenario A (Data Science):** "In a normal distribution, approximately 68% of the data points fall within one ____ of the mean."
+* **Scenario B (Energy):** "The process of splitting a heavy atomic nucleus into two lighter nuclei to release energy is known as nuclear ____."
+
+---
+
+### Explanation of Use Case
+
+In **Data Science (Unit 5 context)**, these prompt types are essential for **Exploratory Data Analysis (EDA)**.
+
+* **Straightforward prompts** are used for quick definitions of statistical terms.
+* **Tabular prompts** help organize metadata or compare model performance metrics side-by-side.
+* **Preceding Questioning** helps an analyst walk through the logic of a hypothesis test.
+* **Missing Word prompts** are often used in automated educational tools to quiz students on programming syntax or statistical properties.
+
+
+RESULT: Thus,the experiment for exploring different type of prompt is completed successfully.
